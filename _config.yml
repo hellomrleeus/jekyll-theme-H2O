@@ -52,7 +52,7 @@ sns:
 #   weibo: ''
 #   juejin: ''
 #   instagram: ''
-  gitlab: 'https://gitlab.com/hellomrlee'
+  github: 'https://gitlab.com/hellomrlee'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
