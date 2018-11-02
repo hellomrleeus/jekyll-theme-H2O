@@ -32,7 +32,8 @@ your_project/.git/info/attributes (不会被提交到库中)
 
 在config文件中增加节点
 
->[filter "gitignore"] #引号中的名称要和上面保持一致
+>[filter "gitignore"] 
+>#引号中的名称要和上面保持一致
 >    clean = sed 's/local_string/remote_string/'g   #出仓时候替换 /local/remote/
 >    smudge = sed 's/remote_string/local_string/'g  #进仓时候替换 /remote/local/
 
