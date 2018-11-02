@@ -12,7 +12,7 @@ author: 李昕
 
 **首先安装php7**
 
-之前的文章有记录如何[安装php72](https://www.baidu.com)
+之前的文章有记录如何[安装php72](https://lixin.blog/2018/11/01/php-php72-install.html)
 
 **安装swoole**
 
