@@ -4,7 +4,7 @@ title: '在使用VSCode中Git扩展时遇到的加密SSH Key问题'
 date: 2018-10-31
 author: 李昕
 tags: VSCode
-cover: 'https://lixin.blog/assets/img/default_banner.jpg'
+cover: 'https://lixin.blog/assets/img/vscode_banner.jpg'
 ---
 
 环境：

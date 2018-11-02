@@ -5,7 +5,7 @@ date: 2018-11-02
 categories: PHP
 tags: PHP
 author: 李昕
-cover: 'https://lixin.blog/assets/img/default_banner.jpg'
+cover: 'https://lixin.blog/assets/img/php_banner.jpg'
 ---
 
 用static 修饰的方法内变量，会改变变量的生命周期，但不改变变量的作用域；

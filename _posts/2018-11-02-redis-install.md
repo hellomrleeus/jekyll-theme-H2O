@@ -5,7 +5,7 @@ date: 2018-11-02
 categories: Redis
 tags: Redis
 author: 李昕
-cover: 'https://lixin.blog/assets/img/default_banner.jpg'
+cover: 'https://lixin.blog/assets/img/redis_banner.jpg'
 ---
 
 1. 下载

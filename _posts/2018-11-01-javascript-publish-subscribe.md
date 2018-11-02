@@ -5,7 +5,7 @@ date: 2018-11-01
 categories: Javascript
 tags: Javascript
 author: 李昕
-cover: 'https://lixin.blog/assets/img/default_banner.jpg'
+cover: 'https://lixin.blog/assets/img/javascript_banner.jpg'
 ---
 
 简单说观察者模式中目标和观察者是有直接联系的，观察者需要在目标那里注册方法。当目标更新信息就调用观察者注册的方法，传递消息。
