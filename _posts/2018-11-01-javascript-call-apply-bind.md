@@ -5,7 +5,7 @@ date: 2018-11-01
 categories: Javascript
 tags: Javascript
 author: 李昕
-cover: 'https://lixin.blog/assets/img/javascript_banner.jpg'
+cover: 'https://lixin.blog/assets/img/javascript_banner.png'
 ---
 
 call：调用一个对象的一个方法，用另一个对象替换当前对象。例如：B.call(A, args1,args2);即A对象调用B对象的方法。

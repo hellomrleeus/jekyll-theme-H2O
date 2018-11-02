@@ -5,7 +5,7 @@ date: 2018-11-01
 categories: Linux
 tags: Linux
 author: 李昕
-cover: 'https://lixin.blog/assets/img/linux_banner.jpg'
+cover: 'https://lixin.blog/assets/img/linux_banner.png'
 ---
 
 cron服务是Linux的内置服务，但它不会开机自动启动。可以用以下命令启动和停止服务：

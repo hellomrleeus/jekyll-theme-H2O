@@ -5,7 +5,7 @@ date: 2018-11-02
 categories: PHP
 tags: PHP
 author: 李昕
-cover: 'https://lixin.blog/assets/img/php_banner.jpg'
+cover: 'https://lixin.blog/assets/img/php_banner.png'
 ---
 
 一、冒泡排序

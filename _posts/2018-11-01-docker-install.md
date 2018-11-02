@@ -5,7 +5,7 @@ date: 2018-11-01
 categories: Docker
 tags: Docker
 author: 李昕
-cover: 'https://lixin.blog/assets/img/docker_banner.jpg'
+cover: 'https://lixin.blog/assets/img/docker_banner.png'
 ---
 
 Docker支持以下的CentOS版本：

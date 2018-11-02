@@ -5,7 +5,7 @@ date: 2018-11-01
 categories: Javascript
 tags: Javascript
 author: 李昕
-cover: 'https://lixin.blog/assets/img/javascript_banner.jpg'
+cover: 'https://lixin.blog/assets/img/javascript_banner.png'
 ---
 
 export，import ，export default是什么

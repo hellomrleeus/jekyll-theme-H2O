@@ -5,7 +5,7 @@ date: 2018-11-01
 categories: Git
 tags: Git
 author: 李昕
-cover: 'https://lixin.blog/assets/img/git_banner.jpg'
+cover: 'https://lixin.blog/assets/img/git_banner.png'
 ---
 
 下载编译工具 

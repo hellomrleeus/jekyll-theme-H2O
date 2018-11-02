@@ -5,7 +5,7 @@ date: 2018-11-01
 categories: Notes
 tags: Notes
 author: 李昕
-cover: 'https://lixin.blog/assets/img/default_banner.jpg'
+cover: 'https://lixin.blog/assets/img/default_banner.png'
 ---
 
 1、 Accept：告诉WEB服务器自己接受什么介质类型，/ 表示任何类型，type/* 表示该类型下的所有子类型，type/sub-type。
