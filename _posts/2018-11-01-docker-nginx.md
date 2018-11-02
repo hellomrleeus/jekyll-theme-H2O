@@ -4,6 +4,7 @@ title: 'Docker:安装Nginx反向代理'
 date: 2018-11-01
 categories: Docker
 tags: Docker
+author: 李昕
 ---
 
 **方法一、通过 Dockerfile构建**

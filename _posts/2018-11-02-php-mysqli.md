@@ -1,9 +1,10 @@
 ---
 layout: post
 title: 'PHP:Mysqli预编译'
-date: 2018-11-01
+date: 2018-11-02
 categories: PHP
 tags: PHP
+author: 李昕
 ---
 
 mysqli预编译执行sql语句

@@ -2,7 +2,7 @@
 layout: post
 title: '在使用VSCode中Git扩展时遇到的加密SSH Key问题'
 date: 2018-10-31
-author: lee
+author: 李昕
 cover: 'https://hellomrlee.gitlab.io/assets/img/default_banner.jpg'
 tags: VSCode
 ---

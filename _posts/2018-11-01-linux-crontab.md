@@ -1,9 +1,10 @@
 ---
 layout: post
-title: 'Centos7利用crontab定时执行任务'
+title: 'Linux:CentOS7利用crontab定时执行任务'
 date: 2018-11-01
-categories: Centos7
+categories: Linux
 tags: Linux
+author: 李昕
 ---
 
 cron服务是Linux的内置服务，但它不会开机自动启动。可以用以下命令启动和停止服务：

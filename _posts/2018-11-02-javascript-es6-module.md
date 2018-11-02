@@ -4,6 +4,7 @@ title: 'Javascript:ES6中export、export default和import'
 date: 2018-11-01
 categories: Javascript
 tags: Javascript
+author: 李昕
 ---
 
 export，import ，export default是什么

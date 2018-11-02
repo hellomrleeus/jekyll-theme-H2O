@@ -1,9 +1,10 @@
 ---
 layout: post
 title: 'PHP:文件上传、获取大小、获取MD5'
-date: 2018-11-01
+date: 2018-11-02
 categories: PHP
 tags: PHP
+author: 李昕
 ---
 
 ![](https://lixin.blog/assets/post_img/php_upload_img_1.png)

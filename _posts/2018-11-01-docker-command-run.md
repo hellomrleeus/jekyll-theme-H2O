@@ -4,6 +4,7 @@ title: 'Docker:run命令'
 date: 2018-11-01
 categories: Docker
 tags: Docker
+author: 李昕
 ---
 
 docker run ：创建一个新的容器并运行一个命令

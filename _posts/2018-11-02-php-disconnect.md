@@ -1,9 +1,10 @@
 ---
 layout: post
 title: 'PHP:主动断缆与浏览器的连接'
-date: 2018-11-01
+date: 2018-11-02
 categories: PHP
 tags: PHP
+author: 李昕
 ---
 
 ```php

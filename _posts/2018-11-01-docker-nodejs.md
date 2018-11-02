@@ -4,6 +4,7 @@ title: 'Docker:部署Nodejs项目'
 date: 2018-11-01
 categories: Docker
 tags: Docker
+author: 李昕
 ---
 
 在项目根目录上创建Dockerfile文件

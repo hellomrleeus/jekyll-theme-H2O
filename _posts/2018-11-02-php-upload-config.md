@@ -1,9 +1,10 @@
 ---
 layout: post
 title: 'PHP:修改上传文件限制'
-date: 2018-11-01
+date: 2018-11-02
 categories: PHP
 tags: PHP
+author: 李昕
 ---
 
 打开php.ini，首先找到

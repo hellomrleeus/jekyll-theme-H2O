@@ -4,6 +4,7 @@ title: 'Git:CentOS安装git-2.18以上版本'
 date: 2018-11-01
 categories: Git
 tags: Git
+author: 李昕
 ---
 
 下载编译工具 

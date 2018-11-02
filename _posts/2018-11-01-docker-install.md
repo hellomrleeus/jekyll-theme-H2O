@@ -4,6 +4,7 @@ title: 'Docker:CentOS安装Docker'
 date: 2018-11-01
 categories: Docker
 tags: Docker
+author: 李昕
 ---
 
 Docker支持以下的CentOS版本：

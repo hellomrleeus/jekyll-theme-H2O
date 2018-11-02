@@ -4,6 +4,7 @@ title: 'Docker:常用命令'
 date: 2018-11-01
 categories: Docker
 tags: Docker
+author: 李昕
 ---
 
 >systemctl start/stop/restart docker
@@ -13,7 +14,7 @@ tags: Docker
 
 获取镜像
 
->docker build -t [tagName] 
+>docker build -t [tagName] [dir]
 
 创建镜像
 

@@ -1,9 +1,10 @@
 ---
 layout: post
 title: 'PHP:常见排序'
-date: 2018-11-01
+date: 2018-11-02
 categories: PHP
 tags: PHP
+author: 李昕
 ---
 
 一、冒泡排序
