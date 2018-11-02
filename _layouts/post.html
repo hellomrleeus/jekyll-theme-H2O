@@ -146,12 +146,11 @@
   <script src="/assets/js/index.min.js"></script>
   <script>
     //  解决代码块和引用有两层滑动条的bug
-    window.onload = function () {
-      let codeArea = document.getElementsByClassName('highlighter-rouge');
-      for (let code of codeArea) {
+    !function () {
+      for (let code of document.getElementsByClassName('highlighter-rouge')) {
         code.firstChild.className = '';
       }
-    }
+    }();
   </script>
 </body>
 
