@@ -5,6 +5,7 @@ date: 2018-11-02
 categories: Swoole
 tags: Swoole
 author: 李昕
+cover: 'https://lixin.blog/assets/img/default_banner.jpg'
 ---
 
 根据官方文档，swoole仅支持 Linux、FreeBSD、MacOS 三种操作系统，对于windows来说需要跑虚拟机或者Linux子系统（windows10）再或者是docker上。

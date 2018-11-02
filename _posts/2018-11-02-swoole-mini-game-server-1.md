@@ -5,6 +5,7 @@ date: 2018-11-02
 categories: Swoole
 tags: Swoole
 author: 李昕
+cover: 'https://lixin.blog/assets/img/default_banner.jpg'
 ---
 
 **第一章 理解swoole**

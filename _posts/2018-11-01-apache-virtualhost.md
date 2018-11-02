@@ -5,6 +5,7 @@ date: 2018-11-01
 categories: Apache
 tags: Apache
 author: 李昕
+cover: 'https://lixin.blog/assets/img/default_banner.jpg'
 ---
 
 配置虚拟域名

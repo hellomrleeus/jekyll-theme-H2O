@@ -5,6 +5,7 @@ date: 2018-11-02
 categories: PHP
 tags: PHP
 author: 李昕
+cover: 'https://lixin.blog/assets/img/default_banner.jpg'
 ---
 
 ![](https://lixin.blog/assets/post_img/php_type_img_1.png)

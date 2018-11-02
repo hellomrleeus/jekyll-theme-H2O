@@ -5,6 +5,7 @@ date: 2018-11-02
 categories: PHP
 tags: PHP
 author: 李昕
+cover: 'https://lixin.blog/assets/img/default_banner.jpg'
 ---
 
 打开php.ini，首先找到
