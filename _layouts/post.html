@@ -148,9 +148,9 @@
     //  解决代码块和引用有两层滑动条的bug
     window.onload = function () {
       let codeArea = document.getElementsByClassName('highlighter-rouge');
-      codeArea.forEach(code => {
-        console.log(code.firstChild);
-      });
+      for (let code of codeArea) {
+        code.firstChild.className = '';
+      }
     }
   </script>
 </body>
