@@ -37,7 +37,7 @@
     <h2 class="post-subtitle">{{ page.subtitle }}</h2>
     {% endif %}
 
-    <article id="markdown_body_id" class="markdown-body">
+    <article class="markdown-body">
       {{ page.content }}
     </article>
 
@@ -144,10 +144,11 @@
 
   <script src="/assets/js/prism.js"></script>
   <script src="/assets/js/index.min.js"></script>
-  <!-- 解决代码块和引用有两层滑动条的bug -->
   <script>
+    //  解决代码块和引用有两层滑动条的bug
     window.onload = function () {
-      console.log(document.getElementById('markdown_body_id'));
+      let codeArea = document.getElementsByClassName('highlighter-rouge');
+      console.log(codeArea);
     }
   </script>
 </body>
