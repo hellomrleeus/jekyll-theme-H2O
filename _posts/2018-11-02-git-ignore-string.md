@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Git:在'
+title: 'Git:忽略文件中的字符串'
 date: 2018-11-01
 categories: Git
 tags: Git
