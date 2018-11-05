@@ -33,12 +33,18 @@ memory_limit = 8m ;每个PHP页面所吃掉的最大内存，默认8M
 把上述参数修改后，在网络所允许的正常情况下，就可以上传大体积文件了
 
 >max_execution_time = 600
-max_input_time = 600
-memory_limit = 32m
-file_uploads = on
-upload_tmp_dir = /tmp
-upload_max_filesize = 32m
-post_max_size = 32m
+>
+>max_input_time = 600
+>
+>memory_limit = 32m
+>
+>file_uploads = on
+>
+>upload_tmp_dir = /tmp
+>
+>upload_max_filesize = 32m
+>
+>post_max_size = 32m
 
 Tips:
 

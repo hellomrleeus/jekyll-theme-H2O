@@ -105,9 +105,13 @@ cover: 'https://lixin.blog/assets/img/docker_banner.png'
 >docker import  [OPTIONS] file|URL|- [REPOSITORY[:TAG]]
 
 >runoob@runoob:~$ docker import  my_ubuntu_v3.tar runoob/ubuntu:v4  
+>
 >sha256:63ce4a6d6bc3fabb95dbd6c561404a309b7bdfc4e21c1d59fe9fe4299cbfea39
+>
 >runoob@runoob:~$ docker images runoob/ubuntu:v4
+>
 >REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+>
 >runoob/ubuntu       v4                  63ce4a6d6bc3        20 seconds ago      142.1 MB
 
 导入容器导出的文件成为镜像

@@ -13,6 +13,7 @@ cover: 'https://lixin.blog/assets/img/php_banner.png'
 rpm安装php7.2相应的yum源
 
 >rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+>
 >rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 
 

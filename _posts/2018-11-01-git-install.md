@@ -27,6 +27,7 @@ tar -zxvf git-2.18.0.tar.gz
 进入目录配置 
 
 >cd git-2.18.3 
+>
 >./configure --prefix=/usr/git
 
 安装 
@@ -38,6 +39,7 @@ tar -zxvf git-2.18.0.tar.gz
 方法一（暂时生效）
 
 >export PATH="/usr/local/git/bin:$PATH" 
+>
 >source /etc/profile
 
 方法二（只对当前登陆用户生效，永久生效）

@@ -31,9 +31,13 @@ cd redis-3.1.2目录下
 然后就是配置、编译、安装全部在该目录下完成
 
 >./configure --with-php-config=/usr/bin/php-config
-make
-make install
-make install
+>
+>make
+>
+>make install
+>
+>make install
+
 
 后会看到
 

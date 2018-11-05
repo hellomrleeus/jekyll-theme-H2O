@@ -17,16 +17,20 @@ cover: 'https://lixin.blog/assets/img/vscode_banner.png'
 
 详细的log是
 
-
-
 >git@gitlab.com: Permission denied (publickey).
+>
 >fatal: Could not read from remote repository.
 >
 >Please make sure you have the correct access rights
+>
 >and the repository exists.
+>
 >\> git fetch
+>
 >\> git show :_posts/about.md
+>
 >git@gitlab.com: Permission denied (publickey).
+>
 >fatal: Could not read from remote repository.
 
 

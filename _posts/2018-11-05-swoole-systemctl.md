@@ -26,15 +26,22 @@ CentOS7的每一个服务以.service结尾，一般会分为3部分：[Unit]、[
 
 >[Unit]部分主要是对这个服务的说明，内容包括Description和After，Description 用于描述服务，After用于描述服务类别
 >
->[Service]部分是服务的关键，是服务的一些具体运行参数的设置.
+>[Service]部分是服务的关键，是服务的一些具体运行参数的设置
 >
->Type=forking 是后台运行的形式，
->User=users 是设置服务运行的用户,
->Group=users 是设置服务运行的用户组,
->PIDFile为存放PID的文件路径，
->ExecStart为服务的具体运行命令,
->ExecReload为重启命令，
->ExecStop为停止命令，
+>Type=forking 是后台运行的形式
+>
+>User=users 是设置服务运行的用户
+>
+>Group=users 是设置服务运行的用户组
+>
+>PIDFile为存放PID的文件路径
+>
+>ExecStart为服务的具体运行命令
+>
+>ExecReload为重启命令
+>
+>ExecStop为停止命令
+>
 >PrivateTmp=True表示给服务分配独立的临时空间
 >
 >[Install]部分是服务安装的相关设置，可设置为多用户的
@@ -48,18 +55,26 @@ CentOS7的每一个服务以.service结尾，一般会分为3部分：[Unit]、[
 首先在/usr/lib/systemd/system/目录下，新建文件swoolechat.service，并加入以下代码：
 
 >[Unit]
-Description=Swoole Chat Server
-After=network.target syslog.target
-
+>
+>Description=Swoole Chat Server
+>
+>After=network.target syslog.target
+>
 >[Service]
-Type=forking
-LimitNOFILE=65535
-ExecStart=/usr/local/php/bin/php /home/web/swoole/public/chatServer.php
-ExecReload=/bin/kill -USR1 $MAINPID
-Restart=always
-
+>
+>Type=forking
+>
+>LimitNOFILE=65535
+>
+>ExecStart=/usr/local/php/bin/php /home/web/swoole/public/chatServer.php
+>
+>ExecReload=/bin/kill -USR1 $MAINPID
+>
+>Restart=always
+>
 >[Install]
-WantedBy=multi-user.target graphical.target
+>WantedBy=multi-user.target graphical.target
+
 然后保存好文件，并使用如下命令重新载入所有的[Unit]文件，确保我们添加进去的service能被系统加载并生效。
 
 >systemctl  daemon-reload

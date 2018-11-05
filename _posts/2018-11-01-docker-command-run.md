@@ -63,4 +63,5 @@ OPTIONS说明：
 使用镜像nginx:latest以交互模式启动一个容器,在容器内执行/bin/bash命令。
 
 >runoob@runoob:~$ docker run -it nginx:latest /bin/bash
+>
 >root@b8573233d675:/#

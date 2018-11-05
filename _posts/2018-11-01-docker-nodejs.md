@@ -10,15 +10,20 @@ cover: 'https://lixin.blog/assets/img/docker_banner.png'
 
 在项目根目录上创建Dockerfile文件
 
-```
-FROM node
-RUN mkdir -p /home/server
-WORKDIR /home/server
-COPY . /home/server
-RUN npm install
-EXPOSE 8888
-CMD  npm start
-```
+>FROM node
+>
+>RUN mkdir -p /home/server
+>
+>WORKDIR /home/server
+>
+>COPY . /home/server
+>
+>RUN npm install
+>
+>EXPOSE 8888
+>
+>CMD  npm start
+
 
 执行
 

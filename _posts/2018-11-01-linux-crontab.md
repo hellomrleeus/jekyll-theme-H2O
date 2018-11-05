@@ -11,8 +11,11 @@ cover: 'https://lixin.blog/assets/img/linux_banner.png'
 cron服务是Linux的内置服务，但它不会开机自动启动。可以用以下命令启动和停止服务：
 
 >/sbin/service crond start
+>
 >/sbin/service crond stop
+>
 >/sbin/service crond restart
+>
 >/sbin/service crond reload
 
 以上1-4行分别为启动、停止、重启服务和重新加载配置。
@@ -20,22 +23,32 @@ cron服务是Linux的内置服务，但它不会开机自动启动。可以用�
 要把cron设为在开机的时候自动启动，在 /etc/rc.d/rc.local 脚本中加入 /sbin/service crond start 即可
 
 查看当前用户的crontab，输入 
+
 >crontab -l；
 
 编辑crontab，输入 
+
 >crontab -e；
 
 删除crontab，输入 
+
 >crontab -r
  
 添加任务
+
 >crontab -e
+>
 >0 */1 * * * command
+>
 >0 */2 * * * command
 
+
 查询任务是否加了：
+
 >crontab -l -u root #查看root用户
+>
 >0 */1 * * * command
+>
 >0 */2 * * * command
  
 基本格式 :

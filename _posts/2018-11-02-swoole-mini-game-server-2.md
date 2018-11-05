@@ -30,19 +30,24 @@ cover: 'https://lixin.blog/assets/img/default_banner.png'
 编译swoole项目
 
 >phpize
-./configure --enable-openssl
-make && make install
+>
+>./configure --enable-openssl
+>
+>make && make install
 
 出现了如下错误：
 
 >...
-error: C++ preprocessor "/lib/cpp" fails sanity check 
-...
+>
+>error: C++ preprocessor "/lib/cpp" fails sanity check 
+>
+>...
 
 问题的根源是缺少必要的C++库。如果是CentOS系统，运行，如下命令解决：
 
 >yum install glibc-headers
-yum install gcc-c++
+>
+>yum install gcc-c++
  
 查看swoole.so文件，路径是
 
