@@ -74,51 +74,91 @@ class RoomArray {
 
 由于一个房间只有两名玩家，所以为两个玩家直接分配角色更方便我们管理。创建房间的玩家分配角色叫host，加入房间的玩家角色叫player。
 
+可以用host的用户ID来充当房间ID
+
 ```php
 class Room {
-    
+    /**
+     * @param array $arrHost    host用户信息
+     */
     public function __construct($arrHost) {
-        $this->iReadyCount = 0;
-        $this->sRoomId = $arrHost['player'];
+        $this->sRoomId = $arrHost['userid'];
         $this->arrHost = $arrHost;
-        $this->arrHost['room'] = $arrHost['player'];
+        $this->arrHost['room'] = $arrHost['userid'];
+        $this->arrHost['ready'] = false;
         $this->playing = false;
     }
+    /**
+     * @return string Room ID
+     * 获取房间实例的RoomID
+     */
     public function getRoomId() {
         return $this->sRoomId;
     }
+    /**
+     * @param array arrHost    host信息
+     * 更新房间host信息
+     */
     public function setHost($arrHost) {
         $this->arrHost = $arrHost;
         $this->arrHost['room'] = $this->sRoomId;
+        $this->arrHost['ready'] = false;
     }
+    /**
+     * @param array arrPlayer   player信息
+     * 更新房间player信息
+     */
     public function setPlayer($arrPlayer) {
         $this->arrPlayer = $arrPlayer;
         $this->arrPlayer['room'] = $this->sRoomId;
+        $this->arrPlayer['ready'] = false;
     }
+    /**
+     * @return array 获取房间host信息
+     */
     public function getHost() {
         if (isset($this->arrHost)) {
             return $this->arrHost;
         }
         return false;
     }
+    /**
+     * @return array 获取房间player信息
+     */
     public function getPlayer() {
         if (isset($this->arrPlayer)) {
             return $this->arrPlayer;
         }
         return false;
     }
+    /**
+     * 删除host
+     */
     public function delHost() {
         unset($this->arrHost);
     }
+    /**
+     * 删除player
+     */
     public function delPlayer() {
         unset($this->arrPlayer);
     }
-    public function setReady() {
-        return ++$this->iReadyCount;
+    /**
+     * @param string sRole 角色
+     * @return boolean 两个角色的准备状态
+     * 设置角色的准备状态，并且返回两个角色状态取与
+     */
+    public function setReady(string $sRole) {
+        if ($sRole == 'host') {
+            $this->arrHost['ready'] = true;
+        } elseif ($sRole == 'player') {
+            $this->arrPlayer['ready'] = true;
+        }
+        return $this->arrHost['ready'] && $this->arrPlayer['ready'];
     }
 }
 ```
 
-
+这样我们的两个基础类就构造好了。
 
 
