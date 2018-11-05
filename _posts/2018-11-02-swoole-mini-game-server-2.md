@@ -8,12 +8,14 @@ author: 李昕
 cover: 'https://lixin.blog/assets/img/default_banner.png'
 ---
 
+**第二章 配置环境**
+
 根据官方文档，swoole仅支持 Linux、FreeBSD、MacOS 三种操作系统，对于windows来说需要跑虚拟机或者Linux子系统（windows10）再或者是docker上。
 正好我手边有一台centos7的服务器，下面所有的配置都是基于centos7来说的。
 
 **首先安装php7**
 
-之前的文章有记录如何[安装php72](https://lixin.blog/2018/11/01/php-php72-install.html)
+之前的文章有记录如何[安装php72](https://lixin.blog/2018/11/02/php-php72-install.html)
 
 **安装swoole**
 

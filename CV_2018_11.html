@@ -1,0 +1,797 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=10;IE=9;IE=8;IE=7;IE=EDGE">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="alternate" media="handheld" href="#" />
+    <meta charset="utf-8">
+    <title>李昕的简历</title>
+    <style>
+        * {
+            outline: none;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+            font-family: "Hiragino Sans GB", "Microsoft Yahei", "SimSun", Arial, "Helvetica Neue", Helvetica;
+            color: #333;
+            word-wrap: break-word;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        main,
+        menu,
+        nav,
+        section,
+        summary {
+            display: block;
+        }
+
+        progress {
+            display: inline-block;
+            vertical-align: baseline;
+        }
+
+        a {
+            color: #555;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #00b38a;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 10px 0;
+            font-weight: normal;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        p+p {
+            margin-top: 10px;
+        }
+
+        img {
+            border: 0;
+            vertical-align: top;
+            display: inline-block;
+        }
+
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            margin: 0;
+            padding: 0;
+            border: 1px solid #ededed;
+            border-radius: 0;
+            font-family: "Hiragino Sans GB", "Microsoft Yahei", "SimSun", Arial, "Helvetica Neue", Helvetica;
+        }
+
+        textarea {
+            overflow: auto;
+        }
+
+        label,
+        select,
+        button,
+        input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        input[type="radio"],
+        input[type="checkbox"],
+        input[type="file"] {
+            cursor: pointer;
+        }
+
+        input[type=text],
+        input[type=password],
+        textarea {
+            font-family: "Microsoft Yahei", "SimSun", Arial, "Helvetica Neue", Helvetica;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        th,
+        td {
+            padding: 0;
+        }
+
+        strong {
+            font-weight: normal;
+        }
+
+        em,
+        i {
+            font-style: normal;
+        }
+
+        dl,
+        dt,
+        dd {
+            margin: 0;
+        }
+
+        ::selection {
+            color: #fff;
+            background-color: #00b38a;
+        }
+
+        ::-moz-selection {
+            color: #fff;
+            background-color: #00b38a;
+        }
+
+        ul,
+        ol {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #container {
+            width: 720px;
+            margin: 50px auto 54px auto;
+            border: 1px solid #e3ebe9;
+            border-radius: 5px;
+        }
+
+        .mr-template {
+            padding: 50px 50px 10px;
+        }
+
+        .mr-template .mr-template_title {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .mr-template .mr-template_title span {
+            font-size: 18px;
+            color: #333333;
+            font-weight: 600;
+            position: relative;
+            margin-left: 10px;
+        }
+
+        .mr-template .mr-template_title span:before {
+            content: '';
+            display: block;
+            border-left: 3px solid #00B38A;
+            height: 16px;
+            width: 3px;
+            position: absolute;
+            left: -7px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .mr-template .mr_md_del {
+            display: none;
+        }
+
+        /***** 基本信息 ****/
+
+        .basic {
+            padding: 50px;
+            background: #FAFAFA;
+            border-radius: 5px 5px 0 0;
+            border-bottom: 1px solid #E3EBE9;
+            display: flex;
+        }
+
+        .basic .basic-photo {
+            height: 88px;
+            width: 88px;
+            display: inline-block;
+            position: relative;
+        }
+
+        .basic .basic-photo img {
+            height: 88px;
+            width: 88px;
+            position: absolute;
+            top: 0;
+            border-radius: 50%;
+        }
+
+        .basic .basic-photo .basic-photo_shadow {
+            display: none;
+        }
+
+        .basic .basic-photo:hover .basic-photo_shadow {
+            display: block;
+        }
+
+        .basic .basic-info {
+            position: relative;
+            width: 100%;
+            margin-left: 20px;
+            flex: 1;
+        }
+
+        .basic .basic-info .edit-btn {
+            position: absolute;
+            right: 0;
+            top: 4px;
+        }
+
+        .basic .basic-info .basic-name-area {
+            overflow: hidden;
+            height: 37px;
+            margin-bottom: 11px;
+        }
+
+        .basic .basic-info .basic-name {
+            float: left;
+            max-width: 250px;
+            font-size: 26px;
+            color: #333333;
+            font-weight: 600;
+            line-height: 37px;
+        }
+
+        .basic .basic-info .icon-sex {
+            width: 13px;
+            height: 13px;
+            float: left;
+            margin-top: 16px;
+            margin-left: 10px;
+            background: none;
+        }
+
+        .basic .basic-info .icon-sex.icon-sex__male {
+            background: url(https://www.lgstatic.com/common/image/pc/icon_man.png);
+        }
+
+        .basic .basic-info .icon-sex.icon-sex__female {
+            background: url(https://www.lgstatic.com/common/image/pc/icon_woman.png);
+        }
+
+        .basic .basic-info .basic-self {
+            margin-top: 20px;
+        }
+
+        .basic .basic-info p {
+            font-size: 14px;
+            color: #333333;
+            line-height: 20px;
+            margin-top: 6px;
+        }
+
+        .basic .basic-info i {
+            display: inline-block;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+
+        .basic .basic-info .basic-tel_icon {
+            width: 11px;
+            height: 14px;
+            margin-right: 2px;
+            background: url(https://www.lgstatic.com/common/image/pc/icon_phone.png);
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .basic .basic-info .basic-email_icon {
+            width: 14px;
+            height: 11px;
+            margin-right: 2px;
+            background: url(https://www.lgstatic.com/common/image/pc/icon_mail.png);
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .basic .basic-info .basic-tel {
+            margin-right: 20px;
+        }
+
+        .basic-tel span {
+            vertical-align: middle;
+        }
+
+        .basic-email span {
+            vertical-align: middle;
+        }
+
+        /***** 基本信息 end ****/
+
+        /***** 自我描述 ****/
+
+        .per .per-self_content {
+            position: relative;
+        }
+
+        .per .per-self_content .per-self_des {
+            margin-top: 13px;
+            font-size: 14px;
+            color: #666666;
+            line-height: 30px;
+        }
+
+        .per .per-self_content .per-self_des p {
+            margin-top: 0;
+        }
+
+        .per .per-self_content .per-self_des ol {
+            list-style-type: decimal;
+            -webkit-padding-start: 20px;
+        }
+        .per .per-self_content .per-self_des ul {
+            list-style: disc;
+            -webkit-padding-start: 20px;
+        }
+
+        /***** 自我描述 end ****/
+
+        /***** 工作经历 ****/
+
+        .work-exp .work-exp_list {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .work-exp .work-exp_list .exp-list_time {
+            font-size: 14px;
+            color: #666666;
+            position: absolute;
+            right: 0;
+        }
+
+        .work-exp .work-exp_list .exp-list_top {
+            display: flex;
+            align-items: center;
+        }
+
+        .work-exp .work-exp_list .exp-list_top img {
+            width: 46px;
+            height: 46px;
+            margin-right: 10px;
+        }
+
+        .work-exp .work-exp_list .exp-list_top .exp-list_right {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            height: 46px;
+            justify-content: space-between;
+        }
+
+        .work-exp .work-exp_list .exp-list_top .exp-list_right p,
+        .work-exp .work-exp_list .exp-list_top .exp-list_right strong {
+            font-size: 14px;
+            color: #333333;
+        }
+
+        .work-exp .work-exp_list .exp-list_top .exp-list_right strong {
+            font-weight: 600;
+        }
+
+        .work-exp .work-exp_list .tagboard {
+            margin: 20px 0 10px;
+        }
+
+        .work-exp .work-exp_list .exp-list_content {
+            font-size: 14px;
+            color: #666666;
+            line-height: 30px;
+        }
+
+        .tagboard .tagboard-tag {
+            font-size: 12px;
+            color: #999;
+            line-height: 18px;
+            padding: 3px 10px;
+            border: 1px solid #EAEDEC;
+            border-radius: 100px;
+            margin-right: 10px;
+        }
+
+        .work-exp .work-exp_list .exp-list_content ul, .work-exp .work-exp_list .exp-list_content_highlight ul {
+            list-style: disc;
+            -webkit-padding-start: 20px;
+        }
+
+        .work-exp .work-exp_list .exp-list_content ol, .work-exp .work-exp_list .exp-list_content_highlight ol {
+            list-style-type: decimal;
+            -webkit-padding-start: 20px;
+        }
+        /***** 工作经历 end ****/
+
+        /***** 项目经历 ****/
+
+        .pro-exp .pro-exp_list {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .pro-exp .pro-exp_list .exp-list_title {
+            font-size: 14px;
+            color: #333333;
+            font-weight: 600;
+            cursor: default;
+            display: flex;
+        }
+
+        .pro-exp .pro-exp_list .exp-list_title .exp-project_name, .pro-exp .pro-exp_list .exp-list_title .exp-project_company span {
+            max-width: 222px;
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .pro-exp .pro-exp_list .exp-list_title .exp-project_company {
+            display: flex;
+        }
+
+        .pro-exp .pro-exp_list .exp-list_time {
+            font-size: 14px;
+            color: #666666;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .pro-exp .pro-exp_list .exp-list_content,
+        .pro-exp .pro-exp_list .exp-project_des {
+            font-size: 14px;
+            color: #666666;
+            line-height: 30px;
+            margin-top: 10px;
+        }
+
+        .pro-exp .exp-list_title.active:hover {
+            color: #00B38A;
+            cursor: pointer;
+        }
+        .pro-exp .exp-project_url {
+            font-size: 14px;
+            color: #666;
+            line-height: 30px;
+        }
+        .pro-exp .pro-exp_list .exp-list_content ul, .pro-exp .pro-exp_list .exp-project_des ul {
+            list-style: disc;
+            -webkit-padding-start: 20px;
+        }
+
+        .pro-exp .pro-exp_list .exp-list_content ol,.pro-exp .pro-exp_list .exp-project_des ol{
+            list-style-type:decimal;-webkit-padding-start:20px
+        }
+
+        /***** 项目经历 end ****/
+
+        /***** 教育经历 ****/
+
+        .edu-exp .edu-exp_list {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .edu-exp .edu-exp_list .exp-list_time {
+            font-size: 14px;
+            color: #666666;
+            position: absolute;
+            right: 0;
+        }
+
+        .edu-exp .edu-exp_list .exp-list_top {
+            display: flex;
+            align-items: center;
+        }
+
+        .edu-exp .edu-exp_list .exp-list_top img {
+            width: 46px;
+            height: 46px;
+            margin-right: 10px;
+        }
+
+        .edu-exp .edu-exp_list .exp-list_top .exp-list_right {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            height: 46px;
+            justify-content: space-between;
+        }
+
+        .edu-exp .edu-exp_list .exp-list_top .exp-list_right p,
+        .edu-exp .edu-exp_list .exp-list_top .exp-list_right strong {
+            font-size: 14px;
+            color: #333333;
+        }
+
+        .edu-exp .edu-exp_list .exp-list_top .exp-list_right strong {
+            font-weight: 600;
+        }
+
+
+        /***** 教育经历 end ****/
+
+        /***** 社交主页 ****/
+
+        .social-page .social-page_list {
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .social-page .social-page_list .social-page_content {
+            display: flex;
+        }
+
+        .social-page .social-page_list .social-page_content img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+
+        .social-page .social-page_list .social-page_content p {
+            font-size: 14px;
+            color: #666666;
+        }
+
+
+        /***** 社交主页 end ****/
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <!-- 基本信息 -->
+        <div class="basic" id="baseInfo">
+            <div class="basic-photo">
+                <img class="mr_headimg user-avatar" id="userpic" src="https://www.lgstatic.com/i/image3/M00/30/7B/Cgq2xlqh8N6AIzOkAAAzl0vK_7424.jpeg"
+                    width="120" height="120" alt="头像" />
+            </div>
+            <div class="basic-info">
+                <div class="basic-name-area">
+                    <p class="basic-name female">李昕</p>
+                    <i class="icon-sex icon-sex__male"></i>
+                </div>
+                <p>
+                    <span class="basic-company">广东工业大学网络身份安全实验室</span>
+                    <span> / </span>
+                    <span class="basic-job">全栈式开发</span>
+                </p>
+                <p class="basic-self">
+                    <span class="basic-exp">3年工作经验 / </span>
+                    <span class="basic-edu">本科
+                        /
+                    </span>
+                    <span class="basic-age">25岁</span>
+                </p>
+                <p>
+                    <span class="basic-tel" onmouseover="showMyTel">
+                        <i class="basic-tel_icon"></i>
+                        <span id="my_tel"></span>
+                    </span>
+                    <span class="basic-email">
+                        <i class="basic-email_icon"></i>
+                        <span>lee_lixin@outlook.com</span>
+                    </span>
+                </p>
+            </div>
+        </div>
+        <!-- /基本信息 -->
+
+        <!-- 自我描述 -->
+        <div class="mr-template per" id="perAbility">
+            <div class="mr-template_title">
+                <span>自我描述</span>
+            </div>
+            <div class="tagboard integrative-tag">
+                <div class="integrative-tag_content">
+                    <span class="tagboard-tag">个人能力</span>
+                    <span class="tagboard-tag">责任心</span>
+                    <span class="tagboard-tag">自驱动</span>
+                    <span class="tagboard-tag">团队精神</span>
+                    <span class="tagboard-tag">执行力</span>
+                </div>
+            </div>
+            <div class="per-self_content">
+                <div class="per-self_des">
+                    <p>2年以上前后端开发经验，有协议设计经验，乐于学习，求知欲强，踏实肯干，不惧加班。本人具有良好编程习惯，能快速融入团队。喜欢记录工作细节，善于总结经验</p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <!-- /自我描述 -->
+
+
+        <!-- 工作经历 -->
+        <div class="mr-template work-exp" id="workExp">
+            <div class="mr-template_title">
+                <span>工作经历</span>
+            </div>
+            <ol class="work-exp_group">
+                <li class="work-exp_list">
+                    <p class="exp-list_time">2016.03-至今</p>
+                    <div class="exp-list_top">
+                        <img src="https://www.lgstatic.com/images/logo_default.png" alt="公司Logo">
+                        <div class="exp-list_right">
+                            <strong class="exp-list_title">
+                                <span>广东工业大学网络身份安全实验室</span>
+                                ／
+                                <span>开发部门</span>
+                            </strong>
+                            <p>全栈式开发</p>
+                        </div>
+                    </div>
+                    <div class="tagboard">
+                        <span class="tagboard-tag">Javascript</span>
+                        <span class="tagboard-tag">Node.js</span>
+                        <span class="tagboard-tag">PHP</span>
+                    </div>
+                    <div class="exp-list_content">
+                        <p>1、参与安心扫项目Android客户端开发，参与服务器爬虫调优</p>
+                        <p>2、设计并开发登录易项目服务器，该项目基于express框架，使用MySQL、Redis作为数据存储</p>
+                        <p>3、设计登录易开放平台协议，并参与用户系统模块，二维码模块，客户端api模块，加密模块等开发，该项目基于php自研框架，使用MySQL&nbsp;、Redis作为数据存储，使用gitlab做代码管理及持续集成</p>
+                        <p>4、设计并开发登录易浏览器扩展和登录易浏览器扩展服务器，websocket协议</p>
+                    </div>
+                </li>
+                <li class="work-exp_list">
+                    <p class="exp-list_time">2016.02-2016.03</p>
+                    <div class="exp-list_top">
+                        <img src="https://www.lgstatic.com/i/image/M00/3F/20/Cgp3O1d2N2WAN22BAAAxG8JGZGM677.png" alt="公司Logo">
+                        <div class="exp-list_right">
+                            <strong class="exp-list_title">
+                                <span>广东东华发思特软件有限公司</span>
+                                ／
+                                <span>开发部门</span>
+                            </strong>
+                            <p>Android开发</p>
+                        </div>
+                    </div>
+                    <div class="tagboard">
+                        <span class="tagboard-tag">Android</span>
+                    </div>
+                    <div class="exp-list_content">
+                        <p>Android实习生</p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <!-- /工作经历 -->
+
+        <!-- 项目经历 -->
+        <div class="mr-template pro-exp" id="proExp">
+            <div class="mr-template_title">
+                <span>项目经历</span>
+            </div>
+            <ol class="pro-exp_group">
+                <li class="pro-exp_list">
+                    <p class="exp-list_title">
+                        <span class="exp-project_name">登录易开放平台</span>
+                        <span class="exp-project_company">（<span>广东工业大学网络身份安全实验室</span>）</span>
+                    </p>
+                    <p class="exp-list_time">2018.06-至今</p>
+                    <div class="exp-project_des">
+                        <p>登录易服务器面向第三方网站开放平台，目的是方便第三方网站接入登录易，为其提供手机app扫码登录、一键注册、修改密码至强密码等服务。</p>
+                        <p>服务器环境&nbsp;centos7&nbsp;php56&nbsp;mysql&nbsp;redis</p>
+                    </div>
+                    <div class="exp-list_content">
+                        设计服务器架构。设计app、服务器以及第三方服务器接口规范。承担了服务器百分之八十开发任务
+                    </div>
+                    <p class="exp-project_url">项目链接: https://open.denglu.net.cn</p>
+                </li>
+                <li class="pro-exp_list">
+                    <p class="exp-list_title">
+                        <span class="exp-project_name">登录易</span>
+                        <span class="exp-project_company">（<span>广东工业大学网络身份安全实验室</span>）</span>
+                    </p>
+                    <p class="exp-list_time">2017.01-至今</p>
+                    <div class="exp-project_des">
+                        <p>登录易是一款帮助用户解决密码疲劳问题，保护用户账号密码安全的App。同浏览器扩展协同工作可以实现网站快捷登录，修改网站密码至强密码等功能。</p>
+                        <p>服务器环境&nbsp;centos7&nbsp;docker+Nodejs+express+socket.io&nbsp;数据库MySql&nbsp;缓存服务使用Redis</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="exp-list_content">
+                        参与立项，主导项目服务器技术选型，设计接口规范以及服务器架构，承担服务器全部开发任务设计开发项目chrome浏览器扩展，承担主逻辑和部分交互逻辑开发
+                    </div>
+                    <p class="exp-project_url">项目链接: http://www.denglu1.cn/</p>
+                </li>
+                <li class="pro-exp_list">
+                    <p class="exp-list_title">
+                        <span class="exp-project_name">安心扫开放平台</span>
+                        <span class="exp-project_company">（<span>广东工业大学网络身份安全实验室</span>）</span>
+                    </p>
+                    <p class="exp-list_time">2017.03-2018.01</p>
+                    <div class="exp-project_des">
+                        <p>安心扫开放平台是香港弩飞科技面向企业提供的网址检测服务，暨免费或付费的钓鱼网址检测。</p>
+                        <p>服务环境 .net + mysql</p>
+                    </div>
+                    <div class="exp-list_content">
+                        海外支付宝付费接入
+                    </div>
+                    <p class="exp-project_url">项目链接: http://open.anxinsao.com/</p>
+                </li>
+                <li class="pro-exp_list">
+                    <p class="exp-list_title">
+                        <span class="exp-project_name">安心扫</span>
+                        <span class="exp-project_company">（<span>广东工业大学网络身份安全实验室</span>）</span>
+                    </p>
+                    <p class="exp-list_time">2016.03-2017.12</p>
+                    <div class="exp-project_des">
+                        <p>安心扫是一款帮助用户识别钓鱼网站的App，其网站提供了在线检测钓鱼网址引擎。安心扫项目隶属于香港弩飞科技</p>
+                        <p>服务器环境&nbsp;.net&nbsp;+&nbsp;MySql</p>
+                        <p></p>
+                    </div>
+                    <div class="exp-list_content">
+                        算法调优，增加了多搜索平台支持
+                    </div>
+                    <p class="exp-project_url">项目链接: http://phish.anxinsao.com</p>
+                </li>
+            </ol>
+        </div>
+        <!-- /项目经历 -->
+        <!-- 教育经历 -->
+        <div class="mr-template edu-exp" id="eduExp">
+            <div class="mr-template_title">
+                <span>教育经历</span>
+            </div>
+            <ol class="edu-exp_group">
+                <li class="edu-exp_list">
+                    <p class="exp-list_time">2012-2016</p>
+                    <div class="exp-list_top">
+                        <img src="https://www.lgstatic.com/i/image/M00/AD/4F/Cgp3O1i1E5eAcCc-AAAjonLbmjU41.jpeg" alt="学校Logo">
+                        <div class="exp-list_right">
+                            <strong>长春工业大学</strong>
+                            <p>本科 / 计算机科学与技术</p>
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <!-- /教育经历 -->
+
+        <!-- 社交主页 -->
+        <div class="mr-template social-page" id="socialPage">
+            <div class="mr-template_title">
+                <span>社交主页</span>
+            </div>
+            <ol class="social-page_group">
+                <li class="social-page_list">
+                    <div class="social-page_content">
+                        <img src="https://www.lgstatic.com/common/image/social/default@2x.png" alt="">
+                        <p>https://lixin.blog</p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <!-- /社交主页 -->
+    </div>
+</body>
+
+</html>

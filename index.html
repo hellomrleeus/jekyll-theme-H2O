@@ -8,7 +8,7 @@ header-img: https://lixin.blog/assets/img/index_banner.png
 <div
     class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }}"
     data-theme="{{ site.theme-color }}"
-    style="{% if page.header-img %}background: url({{ page.header-img | prepend: site.baseurl }}) no-repeat left top; background-size: cover;{% endif %}"
+    style="{% if page.header-img %}background: url({{ page.header-img | prepend: site.baseurl }}) no-repeat center top; background-size: cover;{% endif %}"
 >
     <h2>{{ page.home-title }}</h2>
     <h3>{{ page.description }}</h3>
