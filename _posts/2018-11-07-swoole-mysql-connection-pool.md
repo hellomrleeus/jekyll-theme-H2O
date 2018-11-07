@@ -4,6 +4,7 @@ title: 'Swoole:用Swoole实现数据库连接池'
 date: 2018-11-07
 categories: Swoole
 tags: Swoole
+cover: 'https://lixin.blog/assets/img/php_banner.png'
 author: 李昕
 ---
 
@@ -11,7 +12,7 @@ author: 李昕
 
 php是没有进程池跟连接池这种概念的，所以从单纯php角度设计连接池是很麻烦的，不过我们可以通过swoole，用很简答的代码来实现一个数据库连接池。
 
-swoole安装可以参考官方文档https://wiki.swoole.com/wiki/page/6.html
+swoole安装可以参考[官方文档](https://wiki.swoole.com/wiki/page/6.html)
 
 ```php
 $serv = new swoole_server("127.0.0.1", 9508);
