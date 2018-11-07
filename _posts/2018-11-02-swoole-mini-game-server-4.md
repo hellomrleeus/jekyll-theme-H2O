@@ -156,6 +156,12 @@ class Room {
         }
         return $this->arrHost['ready'] && $this->arrPlayer['ready'];
     }
+    /**
+     * 设置房间状态 playing
+     */
+    public function playing(bool $bPlaying) {
+        $this->playing = $bPlaying;
+    }
 }
 ```
 
