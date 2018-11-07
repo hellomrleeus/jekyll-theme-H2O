@@ -10,8 +10,6 @@ cover: 'https://lixin.blog/assets/img/default_banner.png'
 
 **第一章 理解swoole**
 
-初学php不久，想借助一个框架来更深入了解php。在larvel和swoole二者犹豫很久，因为有开发过nodejs项目，而且swoole是为php开发的异步编程框架，应该跟nodejs有相似的特性，上手可能更快，所以最终还是选择学习swoole。
-
 swoole异步功能是在底层由c实现的，是一个php扩展，运行在php生命周期里面。
 
 php做为swoole的宿主，所以了解php本身的运行模式是必不可少的，下图是以cli下执行一个php文件时的完整流程
