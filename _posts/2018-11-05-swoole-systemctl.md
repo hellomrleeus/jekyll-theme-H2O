@@ -95,7 +95,7 @@ CentOS7的每一个服务以.service结尾，一般会分为3部分：[Unit]、[
 
 **停止、重启swoole服务：**
 
->systemctl stop | restart swoolechat.service
+>systemctl stop \| restart swoolechat.service
 
 现在你就可以设置开机启动swoole服务了：
 
