@@ -322,6 +322,6 @@ function joinRoom($arrClientData, $frame) {
     return false;
 
 }
-
+```
 这样一个最简单的双人游戏服务器就造好了
 
