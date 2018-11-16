@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Javascript:拷贝对象'
-date: 2018-11-016
+date: 2018-11-16
 categories: Javascript
 tags: Javascript
 author: Victor Parmar | 翻译 by 李昕
