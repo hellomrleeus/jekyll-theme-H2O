@@ -14,7 +14,6 @@ Eloquent 让 Model 和数据库表建立对应联系，并且封装好统一的�
 
 ```php
 $person = Person::where('name', 'Tom')->first();
-$person->age;
 echo $person->age;
 ```
 
